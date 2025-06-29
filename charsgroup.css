@@ -1,0 +1,12 @@
+div, textarea, table, td, th, code, pre, samp {
+    word-wrap: break-word;
+}
+.group{
+    text-align: center; 
+    font-size: 30px;
+	line-height: 40px;	
+    border-radius: 20px;
+	color: white;
+    background-color: #0f172a;
+    margin: 5px 
+}

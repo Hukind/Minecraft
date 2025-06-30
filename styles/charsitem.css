@@ -1,0 +1,34 @@
+div, textarea, table, td, th, code, pre, samp {
+    word-wrap: break-word;
+}
+.item {	
+    border-radius: 20px;
+	color: white;
+    background-color: #1e293b;
+    margin: 10px   ;
+    padding: 10px 10px 1px 10px;
+}
+
+img{
+    border-radius: 10px;
+    width: 40;
+    height: 40;
+    background-color: white;
+}
+.item span{
+    margin: 20px ;
+    font-size: 30px;
+}
+
+.item ul li{
+    margin: 5px 0; /*расстояние между пунктами по высоте*/
+    font-family: "Source Code Pro", monospace;
+}
+
+.green{
+    color: green;
+}
+
+.or{
+    color: yellow;
+}

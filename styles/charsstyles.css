@@ -1,0 +1,71 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #374151;
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1.4em; /* equiv 14px */
+    line-height: 1.5; /* adapt to your design */
+}
+
+.content{
+    position: relative;
+}
+
+#group{
+    height: 90;
+    width: 400;
+    background-color: #0f172a;
+    border: #808ca8;
+    color: white;
+    line-height: 90px;
+    font-size: 40px;
+    border-radius: 20px;
+    text-align: left;
+    Display:flex;
+    Justify-content: left;
+    margin: 20px 20px 20px 20px;
+}
+
+
+
+
+#group:target{
+    width: 1000;
+}
+
+.open,
+.close{
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+
+.close{
+    display: none;
+}
+#group:target .close{
+    display: block;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.images_button{
+    height: 90;
+    width: 400;
+    background-color: #0f172a;
+    border: #808ca8;
+    color: white;
+    line-height: 90px;
+    font-size: 40px;
+    border-radius: 20px;
+    text-align: left;
+    Display:flex;
+    Justify-content: left;
+    margin: 20px 20px 20px 20px;
+}
